@@ -9,14 +9,14 @@
 `src/interviw/snippets`
 
 ## Available Scripts
-
-### `yarn test`
+#### To run all the tests
+```yarn test```
 or
-### `npm t`
+```npm t```
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in the interactive watch mode.
 
 To run more specific tests provide full path like below:
 
-### `npm t src/interview/problems/jst1.spec.js`
+ `npm t src/interview/problems/jst1.spec.js`
 
