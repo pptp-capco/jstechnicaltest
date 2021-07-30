@@ -16,7 +16,7 @@ or
 
 Launches the test runner in the interactive watch mode.
 
-To run more specific tests provide full path like below:
+#### To run more specific tests provide full path like below:
 
  `npm t src/interview/problems/jst1.spec.js`
 
