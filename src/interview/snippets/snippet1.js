@@ -1,8 +1,9 @@
 //Snippets
 //SNIP1. Will this code execute or give error? What will console log statement print?
-let phone = 'iPhone'
-phone = 'Android'
-console.log(phone)
+let x = 'iPhone'
+let y = x;
+y = 'Android'
+console.log(x)
 
 
 
@@ -39,15 +40,15 @@ console.log(bird)
 
 
 
-//SNIP5. What will console log statement print? why?
+//SNIP5. What will console log statements print? why?
 const a = {address: {city: 'London' }}
 const b = { address: {city: a.address.city }}    // passed as value
 const c =  { address: a.address } // passed as reference of a
-
 a.address.city = 'Liverpool'
-console.log(a.address.city) // Liverpool
-console.log(b.address.city) // London
-console.log(c.address.city)  // Liverpool
+
+console.log(a.address.city)
+console.log(b.address.city)
+console.log(c.address.city)
 
 
 
