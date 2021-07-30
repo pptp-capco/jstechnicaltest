@@ -1,4 +1,4 @@
-import { greeting } from 'src/app/greeting'
+import { greeting } from './greeting'
 
 describe('main', () => {
     it('should return true if true', () => {
