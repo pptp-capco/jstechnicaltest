@@ -1,4 +1,9 @@
-import { greeting } from './greeting'
+// import { greeting } from './greeting'
+
+// Solution
+function greeting (name) {
+    return `Hello ${name}`
+}
 
 describe('main', () => {
     it('should return true if true', () => {
