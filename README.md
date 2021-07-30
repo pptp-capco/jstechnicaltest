@@ -1,4 +1,4 @@
-# This is a repository for Javascript Techinical Test
+# This is a repository for Javascript Technical Test
 
 # Get started
 `yarn install`
