@@ -7,7 +7,7 @@
 
 
 
-//test
+//unit test
 describe("reverseString function", function() {
     it("should reverse a string", function() {
         expect(reverseString('hello hi')).toBe('ih olleh');

@@ -5,6 +5,8 @@
 //curry(add, 3)(4); // returns 7
 //curry(mul, 3)(4); // returns 12
 
+
+//unit test
 describe('curry function', () => {
     it('should return sum of two numbers when add is passed ',  () => {
         expect(curry(add, 3)(4)).toEqual(7);

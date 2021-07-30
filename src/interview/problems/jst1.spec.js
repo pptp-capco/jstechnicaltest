@@ -7,9 +7,9 @@
 
 
 
-//test
+//Unit test
 describe("Interview test", function() {
-    it("should print hello ", function() {
+    it("should print hello", function() {
         expect(greet('John Doe')).toBe('Hello John Doe');
         expect(greet('Capco')).toBe('Hello Capco');
     });

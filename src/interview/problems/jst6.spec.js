@@ -19,6 +19,8 @@ function getTotalOfProductsValue(data){
 
 }
 
+
+//unit test
 describe('Products Data utility functions', ()=>{
     it('tests findProductsUnderSpecificCost when isMaxThreshold is set true and max value is set 200', ()=>{
         const expectedData = [

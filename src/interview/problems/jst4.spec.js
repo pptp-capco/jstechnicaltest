@@ -9,7 +9,7 @@ function printString() {
     return 'I want to work at '+ this.companyName
 }
 
-//test
+//unit test
 describe("Interview test", function() {
     it("should print I want to work at Capco", function() {
         const actual = printString.apply(company1)
