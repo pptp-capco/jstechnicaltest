@@ -5,6 +5,8 @@ function greeting (name) {
     return `Hello ${name}`
 }
 
+
+//Unit test
 describe('main', () => {
     it('should return true if true', () => {
         expect(true).toEqual(true);
