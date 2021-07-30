@@ -1,5 +1,8 @@
 # This is a repository for Javascript Techinical Test
 
+# Get started
+`yarn install`
+
 ## Interview problems are available at 
 `src/interview/problems`
 ## Code snippets are available at
